@@ -1,0 +1,30 @@
+@import './valiabale.scss';
+
+.footer{
+    width: 100%;
+    padding: 0 4rem;
+    @include displayFlex (space-between , center , false);
+    position: absolute;
+    bottom: 0;
+    &-right {
+        @include displayFlex(center , center , false);
+        a{
+            text-transform: capitalize;
+            padding: 0 .5rem ;
+        }
+    }
+    &-back{
+        padding-left: 1rem;
+       line-height: -10px !important;
+    }
+    &-icon{
+        width: 2rem;
+        height: 2rem;
+        border: 1px solid black;
+        padding: .3rem;
+        border-radius: 20px ;
+    }
+    & > a{
+        @include displayFlex (center , center ,flase)
+    }
+}

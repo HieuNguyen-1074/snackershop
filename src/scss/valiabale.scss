@@ -1,0 +1,28 @@
+
+// valiable
+$color-text-main : #000 ;
+$color-logo-main : #fcae61 ; 
+$color-rate-star : #ffcc00 ;
+$color-btn-main : #2500f9 ; 
+$color-white : #fff ; 
+
+// mixin
+ @mixin displayFlex($jus , $alg , $colunm : true ) {
+     display: flex;
+     justify-content: $jus;
+     align-items: $alg;
+     @if($colunm ==  true ){
+         flex-direction: column;
+     }
+     @else{
+         flex-direction: row;
+     }
+     flex-wrap: wrap;
+ }
+ @mixin  backgroundImg ($url){
+     background-image: url($url);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+

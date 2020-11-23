@@ -1,0 +1,45 @@
+.footer {
+  width: 100%;
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer-right a {
+  text-transform: capitalize;
+  padding: 0 .5rem;
+}
+
+.footer-back {
+  padding-left: 1rem;
+  line-height: -10px !important;
+}
+
+.footer-icon {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid black;
+  padding: .3rem;
+  border-radius: 20px;
+}
+
+.footer > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
